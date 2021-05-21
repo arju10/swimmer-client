@@ -18,7 +18,7 @@ const AddAdmin = () => {
     const reviewData = {
       email: data.email,
     };
-    const url = `https://still-mountain-61093.herokuapp.com/addAdmin`;
+    const url = `https://morning-brook-97610.herokuapp.com/addAdmin`;
     console.log(reviewData);
     fetch(url, {
       method: "POST",

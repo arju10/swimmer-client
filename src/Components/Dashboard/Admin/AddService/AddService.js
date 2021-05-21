@@ -22,7 +22,7 @@ const AddService = () => {
       learnMethod: data.learnMethod,
       imageURL: imageURL,
     };
-    const url = `https://still-mountain-61093.herokuapp.com/addservice`;
+    const url = `https://morning-brook-97610.herokuapp.com/addservice`;
     console.log(reviewData);
     fetch(url, {
       method: "POST",
@@ -60,7 +60,7 @@ const AddService = () => {
           type="text"
           {...register("courseName")}
           placeholder="Course Name"
-        />{" "}
+        />
         <br />
         <br />
         <input type="text" {...register("age")} placeholder="Age" /> <br />
@@ -69,14 +69,14 @@ const AddService = () => {
           type="text"
           {...register("instractor")}
           placeholder="Instractor Name"
-        />{" "}
+        />
         <br />
         <br />
         <input
           type="text"
           {...register("classDuration")}
           placeholder="Class Duration"
-        />{" "}
+        />
         <br />
         <br />
         <input type="text" {...register("price")} placeholder="Price" /> <br />
@@ -88,7 +88,7 @@ const AddService = () => {
         />
         <br />
         <br />
-        <input type="file" name="imageUrl" onChange={handleImageUpload} />{" "}
+        <input type="file" name="imageUrl" onChange={handleImageUpload} />
         <br />
         <br />
         {errors.exampleRequired && <span>This field is required</span>}

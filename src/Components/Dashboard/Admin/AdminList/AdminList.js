@@ -4,7 +4,7 @@ import EditIcon from "@material-ui/icons/Edit";
 const AdminList = () => {
   const [admins, setAdmin] = useState([]);
   useEffect(() => {
-    const uri = `https://still-mountain-61093.herokuapp.com/admins`;
+    const uri = `https://morning-brook-97610.herokuapp.com/admins`;
     fetch(uri)
       .then((res) => res.json())
       .then((data) => setAdmin(data));

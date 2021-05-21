@@ -14,7 +14,7 @@ const ReactForm = () => {
       email: data.email,
       description: data.description,
     };
-    const url = `https://still-mountain-61093.herokuapp.com/addreview`;
+    const url = `https://morning-brook-97610.herokuapp.com/addreview`;
     console.log(reviewData);
     fetch(url, {
       method: "POST",

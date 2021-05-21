@@ -6,7 +6,7 @@ import EditIcon from "@material-ui/icons/Edit";
 const OrderList = () => {
   const [ordersList, setOrdersList] = useState([]);
   useEffect(() => {
-    fetch(`https://still-mountain-61093.herokuapp.com/bookings`)
+    fetch(`https://morning-brook-97610.herokuapp.com/bookings`)
       .then((res) => res.json())
       .then((data) => setOrdersList(data));
   }, []);

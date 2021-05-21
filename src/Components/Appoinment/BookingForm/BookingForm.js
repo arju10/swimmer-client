@@ -34,7 +34,7 @@ const BookingForm = ({ modalIsOpen, closeModal, bookingOn, bookingPrice }) => {
       stAge: data.stAge,
     };
 
-    const url = `https://still-mountain-61093.herokuapp.com/addBooking`;
+    const url = `https://morning-brook-97610.herokuapp.com/addBooking`;
     console.log(bookingData);
     fetch(url, {
       method: "POST",

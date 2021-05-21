@@ -1,14 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Link,NavLink } from "react-router-dom";
 
-import {
-  CDBSidebar,
-  CDBSidebarContent,
-  CDBSidebarFooter,
-  CDBSidebarHeader,
-  CDBSidebarMenu,
-  CDBSidebarMenuItem,
-} from 'cdbreact';
 
 const Sidebar = () => {
   return (
@@ -109,61 +101,6 @@ const Sidebar = () => {
       </Link>
     </div>
 
-    // <div
-    //   style={{ display: 'flex', height: '100vh', overflow: 'scroll initial' }}
-    // >
-    //   <CDBSidebar textColor="#fff" backgroundColor="#0148bc">
-    //     <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
-    //       <a
-    //         href="/"
-    //         className="text-decoration-none"
-    //         style={{ color: 'inherit' }}
-    //       >
-    //         Sidebar
-    //       </a>
-    //     </CDBSidebarHeader>
-
-    //     <CDBSidebarContent className="sidebar-content">
-    //       <CDBSidebarMenu>
-    //         <NavLink exact to="/dashboard" activeClassName="activeClicked">
-    //           <CDBSidebarMenuItem icon="columns">Dashboard</CDBSidebarMenuItem>
-    //         </NavLink>
-    //         <NavLink exact to="/admin/orderList" activeClassName="activeClicked">
-    //           <CDBSidebarMenuItem icon="table">Booking List</CDBSidebarMenuItem>
-    //         </NavLink>
-    //         <NavLink exact to="/dashboard/addService" activeClassName="activeClicked">
-    //           <CDBSidebarMenuItem icon="user">Add Service</CDBSidebarMenuItem>
-    //         </NavLink>
-    //         <NavLink exact to="/admin/makeAdmin" activeClassName="activeClicked">
-    //           <CDBSidebarMenuItem icon="user ">
-    //             Make Admin
-    //           </CDBSidebarMenuItem>
-    //         </NavLink>
-
-    //         <NavLink
-    //           exact
-    //           to="/admin/manageService"
-    //           target="_blank"
-    //           activeClassName="activeClicked"
-    //         >
-    //           <CDBSidebarMenuItem icon="exclamation-circle">
-    //            Manage Service
-    //           </CDBSidebarMenuItem>
-    //         </NavLink>
-    //       </CDBSidebarMenu>
-    //     </CDBSidebarContent>
-
-    //     <CDBSidebarFooter style={{ textAlign: 'center' }}>
-    //       <div
-    //         style={{
-    //           padding: '20px 5px',
-    //         }}
-    //       >
-    //         Sidebar Footer
-    //       </div>
-    //     </CDBSidebarFooter>
-    //   </CDBSidebar>
-    // </div>
   );
 };
 

@@ -7,7 +7,7 @@ const ManageInventory = () => {
   const [services, setServices] = useState([]);
 
   useEffect(() => {
-    fetch("https://still-mountain-61093.herokuapp.com/services")
+    fetch("https://morning-brook-97610.herokuapp.com/services")
       .then((res) => res.json())
       .then((data) => setServices(data));
   }, []);
